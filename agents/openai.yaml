@@ -1,0 +1,6 @@
+interface:
+  display_name: "External Agents"
+  short_description: "Automatically delegate subtasks and judge their answers"
+  default_prompt: "Use $external-agents to delegate independent subtasks to the configured external API and combine their results in Codex."
+policy:
+  allow_implicit_invocation: true

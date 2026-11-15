@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+._*
+.DS_Store
+# никогда не коммитить ключи, конфиги и результаты прогонов
+*.key
+config.json
+health.json
+*.lock
+.env
+.env.*
+out/
+runs/
